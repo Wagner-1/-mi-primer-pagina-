@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Perfil personal</title>
+        <link rel="stylesheet" type="text/css" href="estilo.css" />
+        <style type="text/css">
+
+            *{
+                padding: 0px;
+                margin: 0px;
+            }
+            #header{
+                text-align: center;
+                margin: auto;
+                width: 50%;
+                font-family: 'Times New Roman', Times, serif;
+            }
+            ul, ol {
+                list-style: none;
+            }
+            .nav li a {
+                background-color: lightslategrey;
+                color: rgb(226, 236, 226);
+                text-decoration: none;
+                display: block;
+                padding: 10px;
+            }
+            .nav li a:hover {
+                background-color: rgb(170, 180, 190);
+            }
+            .nav > li {
+                float: left;
+            }
+            .nav li ul {
+                display: none;
+                position: absolute;
+                min-width: 10;
+            }
+            .nav li:hover> ul {
+                display: block;
+            }
+            .nav li ul li {
+                position: relative;
+            }
+            .nav li ul li ul {
+                right: -96%;
+                top: 0;
+            }
+
+        </style>
+    </head>
+    <body>
+        <section id="menu">
+        <div id="header">
+            <ul class="nav">
+                <li><a href="">inicio</a></li>
+                <li><a href="">acerca de</a>
+                    <ul>
+                        <li><a href="">submenu</a></li>
+                        <li><a href="">submenu2</a>
+                            <ul>
+                                <li><a href="">submenu²</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="">servicio</a></li>
+                <li><a href="">contactanos</a></li>
+            </ul>
+        </div>
+        </section>
+        <section id="DP">
+            <h1 class="Encabezado">Datos personales</h1>
+            <h2 id="nombre">Alison Nallive Wagner Rodríguez</h2>
+            <p class="ramdom">tel:3176615059</p>
+            <p class="ramdom">TI:1023390753</p>
+            <p id="e">Edad:14</p>
+            <p id="a">MIS AFICIONES:me gusta dibujar, resolver puzzles como; rompecabezas, cubos rubik, etc, también soy "degustadora de comida".</p>
+        </section>
+        <section id="PA">
+            <h1 class="Encabezado">Perfil academico</h1>
+            <p id="c">Colegio: Paraiso de Manuela Beltran</p>
+            <p id="g">grado 902</p>
+            <p id="mf">matematicas, tecnología y biología</p>
+        </section>
+        <section id="PL">
+            <h1 class="Encabezado">Perfil laboral</h1>
+            <p id="z">soy buena dibujando, podria estudiar diseño grafico, soy buena en matematicas, soy buena lectora y comprendo bien lo que leo</p>
+        </section>
+    </body>
+</html>
